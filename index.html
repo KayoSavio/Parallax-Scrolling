@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/global.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax Scrolling</title>
+</head>
+<body>
+    <div id="parallax">
+        <header>
+            <a href="#" class="logo">Logo</a>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="/stars.png" id="stars">
+            <img src="/moon.png" id="moon">
+            <h2 id="text">Florest</h2>
+            <img src="/florest.png" id="florest">            
+            <a href="#" id="btn">Explore</a>
+            <img src="/firelight.png" id="firelight">
+            <img src="/light.png" id="light">
+            <img src="/grass.png" id="grass">
+        </section>
+        <div class="sec">
+            <h2>Parallax Srolling Effect</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Nihil velit esse magni optio eos nemo hic,
+            consectetur, laborum voluptas expedita illo saepe dolore aspernatur quia.
+            Porro, quo. Quidem, assumenda nisi.<br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus. Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Nihil velit esse magni optio eos nemo hic,
+            consectetur, laborum voluptas expedita illo saepe dolore aspernatur quia.
+            Porro, quo. Quidem, assumenda nisi.<br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Nihil velit esse magni optio eos nemo hic,
+            consectetur, laborum voluptas expedita illo saepe dolore aspernatur quia.
+            Porro, quo. Quidem, assumenda nisi.<br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus. Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Nihil velit esse magni optio eos nemo hic,
+            consectetur, laborum voluptas expedita illo saepe dolore aspernatur quia.
+            Porro, quo. Quidem, assumenda nisi.<br><br>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima iusto 
+            praesentium ipsam quibusdam. Modi aliquam dolorem vitae! Iste nesciunt minima
+            earum. Illum atque incidunt eveniet ullam inventore est et blanditiis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Maiores illum iste officiis
+            perspiciatis quasi saepe libero fugiat, cupiditate amet aut omnis est et 
+            obcaecati. Nostrum ipsam repellat esse culpa possimus.</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script>
+        let app = new Vue({
+            el: "#parallax",
+            data:{
+               isLogged: true,
+               stars: document.getElementById('stars'),
+               moon: document.getElementById('moon'),
+               firelight: document.getElementById('firelight'),
+               florest: document.getElementById('florest'),
+               text: document.getElementById('text'),
+               btn: document.getElementById('btn'),
+               header: document.getElementById('header'),
+            },
+            created () {
+            window.addEventListener('scroll', function(){
+                let value = window.scrollY;
+                this.stars.style.left = value * 0.25 + 'px';
+                this.firelight.style.top = value * 0.25 + 'px';
+                this.firelight.style.left = value * 0.25 + 'px';
+                this.moon.style.top = value * 1.05 + 'px';
+                this.florest.style.top = value * 0.5 + 'px';
+                this.text.style.marginRight = value * 4 + 'px';
+                this.text.style.marginTop = value * 1.5 + 'px';
+                this.btn.style.top = value * 0.5 + 'px';
+            });
+            },
+            destroyed () {
+            window.removeEventListener('scroll', this.handleScroll);
+            }
+        })
+    </script>
+</body>
+</html>
+
